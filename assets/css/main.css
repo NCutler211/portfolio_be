@@ -29,6 +29,22 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+/* Info-header */
+
+	.info-header {
+		display: flex;
+		align-items: center;
+	}
+
+	.info-header h1 {
+		margin-right: 20px; /* Adjust spacing between text and image */
+	}
+
+	.info-header img {
+		width: 250px; /* Adjust image width */
+		height: auto;
+	}
+
 body {
 	line-height: 1;
 }
